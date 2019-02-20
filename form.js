@@ -1,4 +1,4 @@
-/*Javascript file*/
+/*Javascript file for AJAX*/
 
 function onSelect(state)
 {

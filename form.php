@@ -1,5 +1,3 @@
-/*php source file*/
-
 <?php
 
 $state=$_GET['state'];
