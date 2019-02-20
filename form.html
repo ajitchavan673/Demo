@@ -1,0 +1,41 @@
+/*Html Form for AJAX */
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax demo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+	<div id="Form-id">
+		<form action="#" method="post">
+			<div>
+				<label>Name</label>
+				<input type="text" name="Username">
+			</div>
+
+			<div>
+				<label>Select State</label>
+				<select onchange="onSelect(this.value)">
+					<option>Select State</option>
+					<option>Maharashtra</option>
+					<option>Bihar</option>
+					<option>Rajsthan</option>
+					<option>Delhi</option>
+					<option>Kerala</option>
+				</select>
+			</div>
+			<div>
+				<label>Select City</label>
+				<select id="cities">
+					<option>First Select State</option>
+				</select>
+			</div>
+			<div><br>
+				<input type="submit" name="submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
