@@ -1,0 +1,20 @@
+#Form-id
+{
+	position: relative;
+	left: 30%;
+	padding: 30px;
+	background-color: gray;
+	width: 400px;
+}
+#Form-id div
+{
+	margin: 10px;
+}
+
+input, select
+{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+}
